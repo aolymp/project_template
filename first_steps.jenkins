@@ -1,5 +1,5 @@
 #!groovy
-// Check puppet-rh6  properties
+// Check puppet-rh6  hostname
 properties([disableConcurrentBuilds()])
 
 pipeline {
