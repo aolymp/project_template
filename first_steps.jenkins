@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh jenkins@puppet-rh6 \'hostname -f\''
+                sh 'ssh jenkins@puppet-rh6 \'hostname\''
             }
         }
     }
